@@ -3,57 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>School/Life Blanace</title>
 </head>
 <body>
 
     <header>
-            <a href = "">Skip to Main Content</a>
-        <nav>
+        <div class="skip"><a tabindex="0" href="#main">Skip to Main Content</a></div>
+        <nav class = "navbar">
             <ul>
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "page_1.html">Academic Support</a></li>
-                <li><a href = "page_2.html">School/Life Balance</a></li>
+                <li class = "active"><a href = "page_2.html">School/Life Balance</a></li>
                 <li><a href = "page_3.html">Additional Resources</a></li>
             </ul>
             
         </nav>
-        <h1>School/Life Balance</h1>
-
+        
+        <h1 class = "title" tabindex="0">School/Life Balance</h1>
     </header>
-    <main>
-        <div>
-            <p>At the University of Michigan School of Information (UMSI), we offer the following resources that help students navigate their lives outside of the classroom.  </p>
+    <main id = "main">
+       
+        <div class = "intro">
+            <p tabindex="0">At the University of Michigan School of Information (UMSI), we offer the following resources that help students navigate their lives outside of the classroom.  </p>
 
         </div>
 
-        <div>
+        <div class = "content">
 
 
             
             <h2> <a href="https://basicneeds.studentlife.umich.edu/">Student Life: Basic Needs</a></h2>>
 
-            <figure>
+            <figure tabindex="0">
                 <img src="images/basicneeds.png" alt="A group of happy students">
                 <figcaption>A group of happy students</figcaption>
             </figure>
 
-            <p>We believe in fair and equitable access to food and other basic resources. Because when each of us has what we need, our community is stronger and our students are more successful. This work is led by Student Life and supported by academic units and campus partners. Because more resources are being discovered and created on a regular basis, this website will be updated often. Please be patient as we grow this important resource. </p>
+            <p tabindex="0">We believe in fair and equitable access to food and other basic resources. Because when each of us has what we need, our community is stronger and our students are more successful. This work is led by Student Life and supported by academic units and campus partners. Because more resources are being discovered and created on a regular basis, this website will be updated often. Please be patient as we grow this important resource. </p>
 
 
         </div>
 
-        <div>
+        <div class = "content">
 
 
             <h2> <a href="https://mbc.studentlife.umich.edu/">Food Pantry</a></h2>>
 
-            <figure>
+            <figure tabindex="0">
                 <img src="images/foodbank.jpg" alt="A student shops for food at the food bank">
                 <figcaption>Student using the food bank</figcaption>
             </figure>
 
-            <p>To ensure members of the University of Michigan community—whether on a tight budget or physically restrained from getting to a grocery store—receive equitable access to healthy, nutritious, and nourishing food and the ability to prepare it for themselves or others. </p>
+            <p tabindex="0">To ensure members of the University of Michigan community—whether on a tight budget or physically restrained from getting to a grocery store—receive equitable access to healthy, nutritious, and nourishing food and the ability to prepare it for themselves or others. </p>
 
 
         </div>
@@ -66,7 +69,7 @@
         <div></div>
     </main>
     <footer>
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
+        <p >UMSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
     </footer>
     
 </body>
